@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Alejandra"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-09-24 12:19:03 a. m."/>
+        <attribute name="created" value="QWxlamFuZHJhO0RFU0tUT1AtRFNDRElRQTsyMDE4LTA5LTIzOzA4OjQxOjEwIHAuIG0uOzM0NTc="/>
+        <attribute name="edited" value="QWxlamFuZHJhO0RFU0tUT1AtRFNDRElRQTsyMDE4LTA5LTI0OzEyOjE5OjAzIGEuIG0uOzE7MzU1Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Ingrese el primer numerador&quot;" newline="True"/>
+            <declare name="numerador1" type="Integer" array="False" size=""/>
+            <input variable="numerador1"/>
+            <output expression="&quot;Ingrese el primer denominador&quot;" newline="True"/>
+            <declare name="denominador1" type="Integer" array="False" size=""/>
+            <input variable="denominador1"/>
+            <output expression="&quot;Ingrese el segundo numerador&quot;" newline="True"/>
+            <declare name="numerador2" type="Integer" array="False" size=""/>
+            <input variable="numerador2"/>
+            <output expression="&quot;Ingrese el segundo denominador&quot;" newline="True"/>
+            <declare name="denominador2" type="Integer" array="False" size=""/>
+            <input variable="denominador2"/>
+            <declare name="suma" type="Integer" array="False" size=""/>
+            <declare name="suma1" type="Integer" array="False" size=""/>
+            <assign variable="suma" expression="(numerador1*denominador2 + denominador1*numerador2)"/>
+            <assign variable="suma1" expression="(denominador1*denominador2)"/>
+            <declare name="resta" type="Integer" array="False" size=""/>
+            <declare name="resta1" type="Integer" array="False" size=""/>
+            <assign variable="resta" expression="(numerador1*denominador2 - denominador1*numerador2)"/>
+            <assign variable="resta1" expression="(denominador1*denominador2)"/>
+            <declare name="multiplicacion" type="Integer" array="False" size=""/>
+            <declare name="multiplicacion1" type="Integer" array="False" size=""/>
+            <assign variable="multiplicacion" expression="(numerador1 * numerador2)"/>
+            <assign variable="multiplicacion1" expression="(denominador1 * denominador2)"/>
+            <declare name="division" type="Integer" array="False" size=""/>
+            <declare name="division1" type="Integer" array="False" size=""/>
+            <assign variable="division" expression="(numerador1 * denominador2)"/>
+            <assign variable="division1" expression="(denominador1*numerador2)"/>
+            <output expression="&quot;La suma de las fracciones es &quot;" newline="False"/>
+            <output expression="suma" newline="False"/>
+            <output expression="&quot;/&quot;" newline="False"/>
+            <output expression="suma1" newline="True"/>
+            <output expression="&quot;La resta de las fracciones es &quot;" newline="False"/>
+            <output expression="resta" newline="False"/>
+            <output expression="&quot;/&quot;" newline="False"/>
+            <output expression="resta1" newline="True"/>
+            <output expression="&quot;La multiplicacion de las fracciones es &quot;" newline="False"/>
+            <output expression="multiplicacion" newline="False"/>
+            <output expression="&quot;/&quot;" newline="False"/>
+            <output expression="multiplicacion1" newline="True"/>
+            <output expression="&quot;La division de las fracciones es &quot;" newline="False"/>
+            <output expression="division" newline="False"/>
+            <output expression="&quot;/&quot;" newline="False"/>
+            <output expression="division1" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

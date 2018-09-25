@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="temporal2"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-09-13 09:34:41 a. m."/>
+        <attribute name="created" value="dGVtcG9yYWwyO0xBQkExMzEwMDU7MjAxOC0wOS0xMzswOToxMzozNyBhLiBtLjsyOTUy"/>
+        <attribute name="edited" value="dGVtcG9yYWwyO0xBQkExMzEwMDU7MjAxOC0wOS0xMzswOTozNDo0MSBhLiBtLjs2OzMwNjM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;vamos a calcular el area de un trapecio&quot;" newline="True"/>
+            <output expression="&quot;Ingrese la base mayor&quot;" newline="True"/>
+            <declare name="Bmayor" type="Real" array="False" size=""/>
+            <input variable="Bmayor"/>
+            <output expression="&quot;Ingrese la base menor&quot;" newline="True"/>
+            <declare name="Bmenor" type="Real" array="False" size=""/>
+            <input variable="Bmenor"/>
+            <output expression="&quot;Ingrese la altura&quot;" newline="True"/>
+            <declare name="Altura" type="Real" array="False" size=""/>
+            <input variable="Altura"/>
+            <declare name="Area" type="Real" array="False" size=""/>
+            <assign variable="Area" expression="((Bmayor*Bmenor)/2)*Altura"/>
+            <output expression="&quot;El &#225;rea del trapecio es de &quot;" newline="False"/>
+            <output expression="Area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

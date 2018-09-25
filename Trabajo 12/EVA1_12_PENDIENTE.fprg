@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="temporal2"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-09-04 03:35:03 a. m."/>
+        <attribute name="created" value="dGVtcG9yYWwyO0xBQkExMzEwMDU7MjAxOC0wOS0wNDswMjo0OTo0MCBhLiBtLjsyOTQ4"/>
+        <attribute name="edited" value="dGVtcG9yYWwyO0xBQkExMzEwMDU7MjAxOC0wOS0wNDswMzozNTowMyBhLiBtLjsxOzMwNTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Calcular la pendiente&quot;" newline="True"/>
+            <output expression="&quot;Ingrese p1&quot;" newline="True"/>
+            <declare name="p1" type="Real" array="False" size=""/>
+            <input variable="p1"/>
+            <output expression="&quot;ingrese p2&quot;" newline="True"/>
+            <declare name="p2" type="Real" array="False" size=""/>
+            <input variable="p2"/>
+            <output expression="&quot;Ingrese q1&quot;" newline="True"/>
+            <declare name="q1" type="Real" array="False" size=""/>
+            <input variable="q1"/>
+            <output expression="&quot;Ingrese q2&quot;" newline="True"/>
+            <declare name="q2" type="Real" array="False" size=""/>
+            <input variable="q2"/>
+            <declare name="m" type="Real" array="False" size=""/>
+            <assign variable="m" expression="(p2-p1)/(q2-q1)"/>
+            <output expression="&quot;La pendiente es &quot;" newline="True"/>
+            <output expression="m" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
